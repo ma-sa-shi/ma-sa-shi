@@ -29,6 +29,6 @@ ECS Fargate構成で、社内のナレッジを共有するRAGチャットアプ
 
 https://github.com/user-attachments/assets/5617046a-c229-4914-a120-0a7c6836cfe1
 
-Fargate Spotを平日の日中だけ稼働させています。NAT Gatewayは置かず、Cloudflare Tunnel経由で公開しています。
+Fargate Spotを平日の9時から19時まで稼働させています(現在は停止中)。NAT Gatewayは置かず、Cloudflare Tunnel経由で公開しています。
 
 ![アプリ設計図](https://raw.githubusercontent.com/ma-sa-shi/fargate-rag-chat/main/docs/diagrams/%E3%82%A2%E3%83%97%E3%83%AA%E8%A8%AD%E8%A8%88.svg)
